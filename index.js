@@ -516,7 +516,7 @@ export default class VideoPlayer extends Component {
           />
         </View>
         {((!this.state.isPlaying) || this.state.isControlsVisible)
-          ? this.renderControls() : this.renderSeekBar(true)}
+          ? this.renderControls() : this.renderSeekBar(false)}
       </View>
     );
   }
